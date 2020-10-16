@@ -1,0 +1,22 @@
+POST http://127.0.0.1:8000/users/
+
+{
+  "email": "rrguhan6@gmaik.com",
+  "password": "string"
+}
+
+###
+
+GET  http://127.0.0.1:8000/users/
+
+
+###
+POST http://127.0.0.1:8000/users/1/items/
+
+{
+  "title": "string",
+  "description": "string"
+}
+
+###
+GET http://127.0.0.1:8000/users/
